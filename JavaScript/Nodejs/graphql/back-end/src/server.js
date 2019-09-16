@@ -1,10 +1,10 @@
 // import { GraphQLServer } from 'graphql-yoga'
 // import path from 'path'
 
-const { GraphQLServer } = require('graphql-yoga')
-const path = require('path')
-const resolvers = require('./resolvers')
-const mongoose = require('mongoose');
+import { GraphQLServer } from 'graphql-yoga'
+import path from 'path'
+import resolvers from './resolvers'
+import mongoose from 'mongoose'
 
 const config = require('./config/dbConfing')
 
@@ -18,4 +18,4 @@ const server = new GraphQLServer({
     resolvers
 })
 
-server.start()
+server.start(() => console.log(`🚀 Server ready at http://localhost:4000`))
