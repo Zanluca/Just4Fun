@@ -45,7 +45,7 @@ const Home = (props) => {
           <IonRow justify-content-center align-items-center style={style100hFlex}>
             <Button style={styleMarginButtom} onClick={() => props.history.push('/momentum')}>Momentum</Button>
             <Button style={styleMarginButtom} onClick={() => props.history.push('/table')}>Tabela</Button>
-            <Button style={styleMarginButtom} onClick={() => props.history.push('/map')}>Gráfico</Button>
+            <Button style={styleMarginButtom} onClick={() => props.history.push('/charts')}>Gráfico</Button>
             <Button style={styleMarginButtom} onClick={() => props.history.push('/map')}>Mapa</Button>
           </IonRow>
         </IonGrid>
