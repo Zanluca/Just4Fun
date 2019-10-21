@@ -9,6 +9,7 @@ import Momentum from './pages/Momentum'
 import AccordionnMomentum from './pages/AccordionMomentum'
 import Autocomplete from './pages/AutocompleteMomentum'
 import Table from './pages/Table'
+import MapLeaflet from './pages/MapLeaflet'
 import { ThemeProvider } from 'styled-components';
 import { Theme } from '@somarmeteorologia/momentum'
 
@@ -43,6 +44,7 @@ const App = () => {
             <Route exact path='/momentum/Autocomplete' component={Autocomplete} />
             <Route exact path="/momentum" component={Momentum} />
             <Route exact path="/table" component={Table} />
+            <Route exact path="/map" component={MapLeaflet} />
             <Route path="/teste" component={Teste} />
             <Route exact path="/" render={() => <Redirect to="/home" />} />
           </IonRouterOutlet>
