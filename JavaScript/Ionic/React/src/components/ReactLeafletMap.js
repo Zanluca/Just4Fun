@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent, createRef } from 'react';
 import Leaflet from 'leaflet';
 import { Map, Marker, Popup, TileLayer, GeoJSON } from 'react-leaflet';
 import { markers, mapConfig } from './utils';
@@ -9,10 +9,10 @@ import './ReactLeafletMap.styl';
 Leaflet.Icon.Default.imagePath = '//cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0/images/';
 
 const Container = styled(Map)`
-  width: 500px;
-  height: 500px;
-  position: relative;
-  `
+    width: 100%;
+    height: 100%;
+    position: relative;
+`
 
 // Data for GeoJSON usage
 const data = {
@@ -67,7 +67,7 @@ const data = {
 }
 
 class ReactLeafletMap extends PureComponent {
-
+    mapRef = createRef()
 
     // Get the style for your polygons from GeoJSON, it can be dependable on a parameter you want.
     // For example, you can use different style for different density of the location
@@ -82,6 +82,22 @@ class ReactLeafletMap extends PureComponent {
         }
     }
 
+
+    teste() {
+        setTimeout(() => {
+            console.log('Did mount')
+            const map = this.mapRef.current
+            if (map !== null)
+                // console.log(map.leafletElement.invalidateSize())
+                map.leafletElement.invalidateSize()
+        }, 1000
+        )
+    }
+
+    componentDidMount() {
+        clearTimeout(this.teste())
+    }
+
     render() {
         // create an array with marker components
         const LeafletMarkers = markers.map(marker => (
@@ -94,9 +110,11 @@ class ReactLeafletMap extends PureComponent {
 
         return (
             <Container
-                center={mapConfig.center} zoom={mapConfig.zoom}>
+                center={mapConfig.center} zoom={mapConfig.zoom}
+                ref={this.mapRef}
+            >
                 <TileLayer
-                    url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png"
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     attribution='&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attribution">CARTO</a>'
                 />
                 {LeafletMarkers}
