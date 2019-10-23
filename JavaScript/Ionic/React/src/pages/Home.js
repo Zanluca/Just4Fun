@@ -47,6 +47,7 @@ const Home = (props) => {
             <Button style={styleMarginButtom} onClick={() => props.history.push('/table')}>Tabela</Button>
             <Button style={styleMarginButtom} onClick={() => props.history.push('/charts')}>Gráfico</Button>
             <Button style={styleMarginButtom} onClick={() => props.history.push('/map')}>Mapa</Button>
+            <Button style={styleMarginButtom} onClick={() => props.history.push('/motion')}>Motion</Button>
           </IonRow>
         </IonGrid>
       </IonContent>

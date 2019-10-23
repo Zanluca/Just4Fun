@@ -84,7 +84,7 @@ const Table = () => {
             <IonHeader>
                 <IonToolbar>
                     <IonButtons slot="start">
-                        <IonBackButton defaultHref="/momentum" />
+                        <IonBackButton defaultHref="/home" />
                     </IonButtons>
                     <IonTitle>Table</IonTitle>
                 </IonToolbar>
