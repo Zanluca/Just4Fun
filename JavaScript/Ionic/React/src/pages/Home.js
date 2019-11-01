@@ -1,5 +1,4 @@
 import {
-  IonBackButton,
   IonButtons,
   IonContent,
   IonHeader,
@@ -8,6 +7,7 @@ import {
   IonToolbar,
   IonGrid,
   IonRow,
+  IonMenuButton
 } from '@ionic/react';
 import React from 'react';
 import { Button } from '@somarmeteorologia/momentum'
@@ -35,9 +35,9 @@ const Home = (props) => {
       <IonHeader>
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton defaultHref="/home" />
+            <IonMenuButton />
           </IonButtons>
-          <IonTitle>Ionic</IonTitle>
+          <IonTitle>Home</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent padding>
@@ -48,6 +48,9 @@ const Home = (props) => {
             <Button style={styleMarginButtom} onClick={() => props.history.push('/charts')}>Gráfico</Button>
             <Button style={styleMarginButtom} onClick={() => props.history.push('/map')}>Mapa</Button>
             <Button style={styleMarginButtom} onClick={() => props.history.push('/motion')}>Motion</Button>
+            <Button style={styleMarginButtom} onClick={() => props.history.push('/nimbus')}>Nimbus</Button>
+            <Button style={styleMarginButtom} onClick={() => props.history.push('/menu')}>Menu</Button>
+            <Button style={styleMarginButtom} onClick={() => props.history.push('/teste')}>Teste</Button>
           </IonRow>
         </IonGrid>
       </IonContent>

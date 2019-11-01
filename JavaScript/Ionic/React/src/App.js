@@ -12,6 +12,9 @@ import Table from './pages/Table'
 import MapLeaflet from './pages/MapLeaflet'
 import Charts from './pages/Charts'
 import Motion from './pages/Motion'
+import Nimbus from './pages/Nimbus'
+import Menu from './components/Menu'
+import MenuIonic from './components/MenuIonic'
 import { ThemeProvider } from 'styled-components';
 import { Theme } from '@somarmeteorologia/momentum'
 
@@ -35,11 +38,21 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 
 const App = () => {
+  const menuEl = React.createRef();
+
+  function closeMenu() {
+    menuEl.current.close()
+  }
+
   return (
     <IonApp>
       <ThemeProvider theme={Theme.light}>
         <IonReactRouter>
-          <IonRouterOutlet>
+          {/* <IonSplitPane contentId='main'> */}
+          <MenuIonic ref={menuEl}>
+            <Menu closeMenu={closeMenu} />
+          </MenuIonic>
+          <IonRouterOutlet id='main'>
             <Route path="/home" component={Home} exact={true} />
             <Route path="/new" component={NewItem} />
             <Route exact path='/momentum/Accordion' component={AccordionnMomentum} />
@@ -49,10 +62,13 @@ const App = () => {
             <Route exact path="/map" component={MapLeaflet} />
             <Route exact path="/charts" component={Charts} />
             <Route path="/motion" component={Motion} />
+            <Route path="/nimbus" component={Nimbus} />
             <Route path="/teste" component={Teste} />
             <Route exact path="/" render={() => <Redirect to="/home" />} />
           </IonRouterOutlet>
+          {/* </IonSplitPane> */}
         </IonReactRouter>
+        {/* </Menu> */}
       </ThemeProvider>
     </IonApp>
   )

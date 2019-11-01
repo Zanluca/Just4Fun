@@ -8,7 +8,6 @@ import {
     IonToolbar
 } from '@ionic/react';
 import React from 'react';
-import Container from '../components/Container'
 import { DataTable } from '@somarmeteorologia/momentum'
 
 const Data = () => {
@@ -90,9 +89,7 @@ const Table = () => {
                 </IonToolbar>
             </IonHeader>
             <IonContent>
-                <Container>
-                    <Data />
-                </Container>
+                <Data />
             </IonContent>
         </IonPage>
     )

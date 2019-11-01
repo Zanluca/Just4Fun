@@ -7,7 +7,7 @@ import {
     IonTitle,
     IonToolbar,
 } from '@ionic/react';
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from "framer-motion"
 import styled from 'styled-components'
 
@@ -23,7 +23,6 @@ const ContainerAnimation = styled.div`
 `
 
 const Motion = () => {
-    const [count, setCount] = useState(0);
     return (
         <IonPage>
             <IonHeader>
@@ -31,14 +30,13 @@ const Motion = () => {
                     <IonButtons slot="start">
                         <IonBackButton defaultHref="/home" />
                     </IonButtons>
-                    <IonTitle>Ionic</IonTitle>
+                    <IonTitle>Motion</IonTitle>
                 </IonToolbar>
             </IonHeader>
             <IonContent padding>
                 <Container>
                     <ContainerAnimation>
                         <motion.div
-                            key={count}
                             animate={{
                                 scale: [1, 2, 2, 1, 1],
                                 rotate: [0, 0, 270, 270, 0],

@@ -82,15 +82,13 @@ class ReactLeafletMap extends PureComponent {
         }
     }
 
-
     teste() {
         setTimeout(() => {
             console.log('Did mount')
             const map = this.mapRef.current
             if (map !== null)
-                // console.log(map.leafletElement.invalidateSize())
                 map.leafletElement.invalidateSize()
-        }, 1000
+        }, 500
         )
     }
 

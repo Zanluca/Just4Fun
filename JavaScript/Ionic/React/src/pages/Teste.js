@@ -8,8 +8,12 @@ import {
     IonToolbar,
 } from '@ionic/react';
 import React from 'react';
+import Menu from '../components/Menu'
+// import styled from 'styled-components'
+
 
 const Teste = () => {
+
     return (
         <IonPage>
             <IonHeader>
@@ -21,7 +25,7 @@ const Teste = () => {
                 </IonToolbar>
             </IonHeader>
             <IonContent padding>
-                Content here
+                <Menu />
             </IonContent>
         </IonPage>
     )
