@@ -15,6 +15,8 @@ import Motion from './pages/Motion'
 import Nimbus from './pages/Nimbus'
 import Menu from './components/Menu'
 import MenuIonic from './components/MenuIonic'
+import User from './pages/User'
+import ChatRoom from './pages/ChatRoom'
 import { ThemeProvider } from 'styled-components';
 import { Theme } from '@somarmeteorologia/momentum'
 
@@ -63,6 +65,8 @@ const App = () => {
             <Route exact path="/charts" component={Charts} />
             <Route path="/motion" component={Motion} />
             <Route path="/nimbus" component={Nimbus} />
+            <Route path='/chat' component={User} />
+            <Route path='/chatroom' component={ChatRoom} />
             <Route path="/teste" component={Teste} />
             <Route exact path="/" render={() => <Redirect to="/home" />} />
           </IonRouterOutlet>

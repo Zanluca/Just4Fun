@@ -51,6 +51,7 @@ const Home = (props) => {
             <Button style={styleMarginButtom} onClick={() => props.history.push('/nimbus')}>Nimbus</Button>
             <Button style={styleMarginButtom} onClick={() => props.history.push('/menu')}>Menu</Button>
             <Button style={styleMarginButtom} onClick={() => props.history.push('/teste')}>Teste</Button>
+            <Button style={styleMarginButtom} onClick={() => props.history.push('/chat')}>Chat</Button>
           </IonRow>
         </IonGrid>
       </IonContent>

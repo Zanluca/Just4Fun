@@ -179,6 +179,25 @@ const Structure = (history, closeMenu) => {
                     children: []
                 },
                 {
+                    id: 'chat',
+                    parent: 'menu',
+                    onClick: () => { history.push('/chat'); closeMenu() },
+                    title: ({ details }) => (
+                        <Title>
+                            <Icon
+                                name="comment"
+                                right={10}
+                                width={20}
+                                height={20}
+                                color={details}
+                            />
+                            <Text size={Text.size.fourteen}>Chat</Text>
+                        </Title>
+                    ),
+                    type: Type.Group,
+                    children: []
+                },
+                {
                     id: 'test',
                     parent: 'menu',
                     onClick: () => { history.push('/teste'); closeMenu() },
