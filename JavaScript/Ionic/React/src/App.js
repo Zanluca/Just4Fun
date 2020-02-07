@@ -43,6 +43,7 @@ const App = () => {
   const menuEl = React.createRef();
 
   function closeMenu() {
+    console.log(menuEl)
     menuEl.current.close()
   }
 

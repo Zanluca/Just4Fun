@@ -1,0 +1,13 @@
+{
+  "appId": "br.somar.testes",
+  "appName": "myApp",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "plugins": {
+    "SplashScreen": {
+      "backgroundColor": "#fff000",
+      "showSpinner": true
+    }
+  }
+}
