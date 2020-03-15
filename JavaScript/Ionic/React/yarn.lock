@@ -1018,10 +1018,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@ionic/core@4.11.3":
-  version "4.11.3"
-  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.11.3.tgz#1295827ab5d779c00c7befdfcb86148ae7d47eaa"
-  integrity sha512-kmW0TTI3us9uWj3mYWoT12HzhvxCFsZErk6nU0Vaniefm3DCPnHIjr3xtNPVhQ6KevWJ9legmribkEdAuJJmLg==
+"@ionic/core@4.11.10":
+  version "4.11.10"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.11.10.tgz#1aa5f2e31b8d0c741471af9c272964c34155ab5a"
+  integrity sha512-PeonKl5E+VOTBeKDr83y0N/1wbfkZ5jV3PSJTsVPE3Q15LxGEO0GzBvVMgkmkssuqOI3WJPXxYWZVL8ejzSFOQ==
   dependencies:
     ionicons "^4.6.3"
     tslib "^1.10.0"
@@ -1033,12 +1033,12 @@
   dependencies:
     tslib "*"
 
-"@ionic/react@^4.11.0":
-  version "4.11.3"
-  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-4.11.3.tgz#735927a5d3f2bccb8e3f8aa882f103e07255c181"
-  integrity sha512-R5QX4snxRWWReaS3CAdFxPuH7kFkyLKuIkD3oHeF1yOvsv2i6ml2MZeoTBazq4pgNmgrpBOLiydJ4/o0wrKyUw==
+"@ionic/react@^4.11.5":
+  version "4.11.10"
+  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-4.11.10.tgz#33704093d8c2686e6c9a112eb29275109d5334da"
+  integrity sha512-EF9H0HDb3MO/E8R2sBACYweQG2OzsHZBdxCYEHTt0lnaOCS2ykB93FK8f0WllP19e5Bx7jembZC4UugwjAxnTQ==
   dependencies:
-    "@ionic/core" "4.11.3"
+    "@ionic/core" "4.11.10"
     tslib "*"
 
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
@@ -1743,9 +1743,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1, acorn@^6.0.4, acorn@^6.2.1:
   version "6.3.0"
