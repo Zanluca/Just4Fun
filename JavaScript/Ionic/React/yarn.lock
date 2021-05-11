@@ -1018,10 +1018,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@ionic/core@4.11.3":
-  version "4.11.3"
-  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.11.3.tgz#1295827ab5d779c00c7befdfcb86148ae7d47eaa"
-  integrity sha512-kmW0TTI3us9uWj3mYWoT12HzhvxCFsZErk6nU0Vaniefm3DCPnHIjr3xtNPVhQ6KevWJ9legmribkEdAuJJmLg==
+"@ionic/core@4.11.13":
+  version "4.11.13"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.11.13.tgz#10c7b0d19889671c1de9233f76f9f4167df2a8b5"
+  integrity sha512-EGin45jCjds4P1AvriujxzpIXKQzQrPQyQAgEEwUybhMNcU/9xC1sf2inG1IwMVdsc6XRBYjWvtqMPWxTWmeCw==
   dependencies:
     ionicons "^4.6.3"
     tslib "^1.10.0"
@@ -1033,12 +1033,12 @@
   dependencies:
     tslib "*"
 
-"@ionic/react@^4.11.0":
-  version "4.11.3"
-  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-4.11.3.tgz#735927a5d3f2bccb8e3f8aa882f103e07255c181"
-  integrity sha512-R5QX4snxRWWReaS3CAdFxPuH7kFkyLKuIkD3oHeF1yOvsv2i6ml2MZeoTBazq4pgNmgrpBOLiydJ4/o0wrKyUw==
+"@ionic/react@^4.11.5":
+  version "4.11.13"
+  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-4.11.13.tgz#e1d39e5a78273ee7e2bbee00a601b880766cfded"
+  integrity sha512-4kwASzTn7IQXHO1CDX3AQGODMoKZqcLk86+DQDSjWP4cno3VYq77aFwi812yjtcIu4K7pn4M1zGz9wYyat2S3w==
   dependencies:
-    "@ionic/core" "4.11.3"
+    "@ionic/core" "4.11.13"
     tslib "*"
 
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
@@ -5055,9 +5055,9 @@ horizontable@^0.4.2:
     styled-components "^4.2.1"
 
 hosted-git-info@^2.1.4:
-  version "2.8.5"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.5.tgz#759cfcf2c4d156ade59b0b2dfabddc42a6b9c70c"
-  integrity sha512-kssjab8CvdXfcXMXVcvsXum4Hwdq9XGtRD3TteMEvEbq0LXyiNQr6AprqKqfeaDXze7SxWvRxdpwE6ku7ikLkg==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 hpack.js@^2.1.6:
   version "2.1.6"
