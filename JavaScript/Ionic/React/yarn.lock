@@ -1018,10 +1018,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@ionic/core@4.11.3":
-  version "4.11.3"
-  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.11.3.tgz#1295827ab5d779c00c7befdfcb86148ae7d47eaa"
-  integrity sha512-kmW0TTI3us9uWj3mYWoT12HzhvxCFsZErk6nU0Vaniefm3DCPnHIjr3xtNPVhQ6KevWJ9legmribkEdAuJJmLg==
+"@ionic/core@4.11.13":
+  version "4.11.13"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.11.13.tgz#10c7b0d19889671c1de9233f76f9f4167df2a8b5"
+  integrity sha512-EGin45jCjds4P1AvriujxzpIXKQzQrPQyQAgEEwUybhMNcU/9xC1sf2inG1IwMVdsc6XRBYjWvtqMPWxTWmeCw==
   dependencies:
     ionicons "^4.6.3"
     tslib "^1.10.0"
@@ -1033,12 +1033,12 @@
   dependencies:
     tslib "*"
 
-"@ionic/react@^4.11.0":
-  version "4.11.3"
-  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-4.11.3.tgz#735927a5d3f2bccb8e3f8aa882f103e07255c181"
-  integrity sha512-R5QX4snxRWWReaS3CAdFxPuH7kFkyLKuIkD3oHeF1yOvsv2i6ml2MZeoTBazq4pgNmgrpBOLiydJ4/o0wrKyUw==
+"@ionic/react@^4.11.5":
+  version "4.11.13"
+  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-4.11.13.tgz#e1d39e5a78273ee7e2bbee00a601b880766cfded"
+  integrity sha512-4kwASzTn7IQXHO1CDX3AQGODMoKZqcLk86+DQDSjWP4cno3VYq77aFwi812yjtcIu4K7pn4M1zGz9wYyat2S3w==
   dependencies:
-    "@ionic/core" "4.11.3"
+    "@ionic/core" "4.11.13"
     tslib "*"
 
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
@@ -6702,9 +6702,9 @@ merge-anything@^2.2.4:
     is-what "^3.3.1"
 
 merge-deep@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/merge-deep/-/merge-deep-3.0.2.tgz#f39fa100a4f1bd34ff29f7d2bf4508fbb8d83ad2"
-  integrity sha512-T7qC8kg4Zoti1cFd8Cr0M+qaZfOwjlPDEdZIIPPB2JZctjaPM4fX+i7HOId69tAti2fvO6X5ldfYUONDODsrkA==
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/merge-deep/-/merge-deep-3.0.3.tgz#1a2b2ae926da8b2ae93a0ac15d90cd1922766003"
+  integrity sha512-qtmzAS6t6grwEkNrunqTBdn0qKwFgNWvlxUbAV8es9M7Ot1EbyApytCnvE0jALPa46ZpKDUo527kKiaWplmlFA==
   dependencies:
     arr-union "^3.1.0"
     clone-deep "^0.2.4"
