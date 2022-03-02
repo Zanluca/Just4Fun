@@ -1018,10 +1018,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@ionic/core@4.11.3":
-  version "4.11.3"
-  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.11.3.tgz#1295827ab5d779c00c7befdfcb86148ae7d47eaa"
-  integrity sha512-kmW0TTI3us9uWj3mYWoT12HzhvxCFsZErk6nU0Vaniefm3DCPnHIjr3xtNPVhQ6KevWJ9legmribkEdAuJJmLg==
+"@ionic/core@4.11.13":
+  version "4.11.13"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.11.13.tgz#10c7b0d19889671c1de9233f76f9f4167df2a8b5"
+  integrity sha512-EGin45jCjds4P1AvriujxzpIXKQzQrPQyQAgEEwUybhMNcU/9xC1sf2inG1IwMVdsc6XRBYjWvtqMPWxTWmeCw==
   dependencies:
     ionicons "^4.6.3"
     tslib "^1.10.0"
@@ -1033,12 +1033,12 @@
   dependencies:
     tslib "*"
 
-"@ionic/react@^4.11.0":
-  version "4.11.3"
-  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-4.11.3.tgz#735927a5d3f2bccb8e3f8aa882f103e07255c181"
-  integrity sha512-R5QX4snxRWWReaS3CAdFxPuH7kFkyLKuIkD3oHeF1yOvsv2i6ml2MZeoTBazq4pgNmgrpBOLiydJ4/o0wrKyUw==
+"@ionic/react@^4.11.5":
+  version "4.11.13"
+  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-4.11.13.tgz#e1d39e5a78273ee7e2bbee00a601b880766cfded"
+  integrity sha512-4kwASzTn7IQXHO1CDX3AQGODMoKZqcLk86+DQDSjWP4cno3VYq77aFwi812yjtcIu4K7pn4M1zGz9wYyat2S3w==
   dependencies:
-    "@ionic/core" "4.11.3"
+    "@ionic/core" "4.11.13"
     tslib "*"
 
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
@@ -2256,10 +2256,10 @@ base64-arraybuffer@0.1.5:
   resolved "https://registry.yarnpkg.com/base64-arraybuffer/-/base64-arraybuffer-0.1.5.tgz#73926771923b5a19747ad666aa5cd4bf9c6e9ce8"
   integrity sha1-c5JncZI7Whl0etZmqlzUv5xunOg=
 
-base64-js@^1.0.2, base64-js@^1.2.3:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.3.1.tgz#58ece8cb75dd07e71ed08c736abc5fac4dbf8df1"
-  integrity sha512-mLQ4i2QO1ytvGWFWmcngKO//JXAQueZvwEKtjgQFM4jIK0kU+ytMfplL8j+n5mspOfjHwoAg+9yhb7BwAHm36g==
+base64-js@^1.0.2, base64-js@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
+  integrity sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==
 
 base@^0.11.1:
   version "0.11.2"
@@ -7748,13 +7748,12 @@ pkg-up@2.0.0:
     find-up "^2.1.0"
 
 plist@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/plist/-/plist-3.0.1.tgz#a9b931d17c304e8912ef0ba3bdd6182baf2e1f8c"
-  integrity sha512-GpgvHHocGRyQm74b6FWEZZVRroHKE1I0/BTjAmySaohK+cUn+hZpbqXkc3KWgW3gQYkqcQej35FohcT0FRlkRQ==
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/plist/-/plist-3.0.4.tgz#a62df837e3aed2bb3b735899d510c4f186019cbe"
+  integrity sha512-ksrr8y9+nXOxQB2osVNqrgvX/XQPOXaU4BQMKjYq8PvaY1U18mo+fKgBSwzK+luSyinOuPae956lSVcBwxlAMg==
   dependencies:
-    base64-js "^1.2.3"
+    base64-js "^1.5.1"
     xmlbuilder "^9.0.7"
-    xmldom "0.1.x"
 
 pn@^1.1.0:
   version "1.1.0"
@@ -11232,11 +11231,6 @@ xmlchars@^2.1.1:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/xmlchars/-/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
   integrity sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==
-
-xmldom@0.1.x:
-  version "0.1.27"
-  resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.27.tgz#d501f97b3bdb403af8ef9ecc20573187aadac0e9"
-  integrity sha1-1QH5ezvbQDr4757MIFcxh6rawOk=
 
 xmlhttprequest-ssl@~1.5.4:
   version "1.5.5"
